@@ -1,6 +1,8 @@
-public class Lesson1 {
+package Lesson1;
+
+public class Variables {
     //Это комментарий
-    //Модифкатор достыпа / статический или не статический / имя метода / его параметры в скобках ()
+    //Модифкатор доступа / статический или не статический / имя метода / его параметры в скобках ()
     public static void main(String[] args) {
         //переменная состоит из типа и имени. Имя задаем сами
         //Примитивные типы byte / short / int / long / char / boolean / float / double
@@ -46,6 +48,12 @@ public class Lesson1 {
         System.out.println();
         System.out.println("Арифметические операции:");
         int add = 1 + 2; //3
+
+        //Одинаковые
+        add = add + 3;
+        add += 3;
+        add *= 3;
+
         int sub = 2 - 6; //-4
         int multi = add * sub;
         double div = (double) 5 / 3; // 1.33
