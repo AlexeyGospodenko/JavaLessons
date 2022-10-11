@@ -24,5 +24,10 @@ public class Cycles {
         System.out.println(result);
     }
 
+    static void printArray(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
     //В уроке будут также циклы while do и do while
 }
